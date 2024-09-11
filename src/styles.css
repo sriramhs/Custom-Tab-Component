@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.active-tab {
+  border-bottom: 3px solid;
+  border-color: cornflowerblue;
+  flex: 1;
+}
+.tab {
+  flex: 1;
+  border-bottom: 3px solid;
+  border-color: black;
+}
+.disabled {
+  flex: 1;
+  border-bottom: 3px solid;
+  cursor: not-allowed;
+  border-color: crimson;
+}
